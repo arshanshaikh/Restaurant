@@ -26,6 +26,13 @@ app.use(express.urlencoded({ extended: true }));
 // Routes connection
 app.use('/api/v1/reservation', reservationRouter);
 
+app.get("/",(req,res,next)=>{
+    return res.status(200).json({
+        success:true,
+        message:"Hello World",
+    });
+});
+
 // Database connection
 dbConnection();
 
