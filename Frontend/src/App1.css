@@ -1,0 +1,127 @@
+* {
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    /* Added padding to all sides */
+    padding: 0 20px; /* New */
+  }
+  
+  .nav {
+    display: flex;
+    max-width: 1500px;
+    min-width: 1500px;
+    padding: 25px 10px 40px 10px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    /* Removed fixed width */
+    /* Added padding to all sides */
+    padding: 25px 10px 40px 20px; /* New */
+  }
+  
+  .heroSection {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    background: url(/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 0 15px;
+    /* Added padding to all sides */
+    padding: 0 20px; /* New */
+  }
+  
+  .about {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fbf2;
+    /* Removed fixed width */
+    /* Added padding to all sides */
+    padding: 30px 20px; /* New */
+  }
+  
+  .qualities {
+    display: flex;
+    height: fit-content;
+    /* Removed fixed width */
+    /* Added padding to all sides */
+    padding: 75px 20px; /* New */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    /* Added padding to all sides */
+    padding: 50px 20px; /* New */
+  }
+  
+  .team {
+    display: flex;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* Added padding to all sides */
+    padding: 20px 20px; /* New */
+  }
+  
+  .who_are_we {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+  
+  .footer {
+    background: #f9fbf2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 20px 20px 10px 20px;
+    /* Added padding to all sides */
+    padding: 20px; /* New */
+  }
+  
+  .reservation {
+    display: flex;
+    min-height: 75vh;
+    padding: 30px 20px;
+    justify-content: center;
+    align-items: center;
+    background: url(/reserve.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    /* Added padding to all sides */
+    padding: 30px 20px; /* New */
+  }
+  
+  .notFound {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    /* Added padding to all sides */
+    padding: 30px 20px; /* New */
+  }
+  
